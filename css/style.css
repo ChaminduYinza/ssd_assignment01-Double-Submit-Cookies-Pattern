@@ -6,3 +6,6 @@
     background-repeat: no-repeat;
     font-family: 'Rajdhani', sans-serif;
 }
+.particles-js-canvas-el{
+    position: fixed !important;
+}
