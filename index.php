@@ -50,24 +50,7 @@
         let cookieList =  decodeURIComponent(document.cookie).split(";")
         cookieList.forEach(function(element) {
             element.includes("csrf_token_cookie")? document.getElementById("csrf_token").value =  element.replace(" csrf_token_cookie=",''):''
-                  // console.log(element)
         }); 
-
-        //   $.ajax({
-        //       url: 'csrf.php',
-        //       type: 'post',
-        //       async: false,
-        //       data: {
-        //           'csrf_request': '<?php echo $_COOKIE['session_cookie'] ?>'
-        //       },
-        //       success: function (data) {
-        //           document.getElementById("csrf_token").value = data;
-        //           $("#csrf_token_string").text(data);
-        //       },
-        //       error: function (xhr, ajaxOptions, thrownError) {
-        //           console.log("Error on Ajax call :: " + xhr.responseText);
-        //       }
-        //   });
       });
    </script>
    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
