@@ -17,6 +17,6 @@ Install XAMP OR WAMP
 3. Navigate to http://localhost:80/
 4. Select the project and continue
 
-#Credentials
-Username : chamindu
-Password : password
+# Credentials
+1. Username : chamindu 
+2. Password : password
