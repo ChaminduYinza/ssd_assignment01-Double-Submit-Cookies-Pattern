@@ -2,14 +2,20 @@
 
 This project was implemented using php
 
-## To Run
+## Run
 Install XAMP OR WAMP
 
-# Guide for deploye on WAMP
-Clone the project into www folder in wamp
-Start WAMP Server
-Navigate to http://localhost:80/
-Select the project and continue
+# Guide for deploy on WAMP
+1. Clone the project into www folder in wamp
+2. Start WAMP Server
+3. Navigate to http://localhost:80/
+4. Select the project and continue
+
+# Guide for deploy on XAMPP
+1. Clone the project into HTDocs folder in wamp
+2. Start WAMP Server
+3. Navigate to http://localhost:80/
+4. Select the project and continue
 
 #Credentials
 Username : chamindu
